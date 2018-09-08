@@ -7,13 +7,9 @@ use App\Http\Controllers\Controller;
 
 class ProfileController extends Controller
 {
-    public function edit()
+  public function edit()
     {
-      return view('admin.profile.edit');
+        return view('admin.profile.edit');
     }
-
-    // public function update{
-    //   return redirect('admin/profile/edit');
-    // }
 
 }
