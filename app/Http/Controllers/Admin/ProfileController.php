@@ -12,4 +12,9 @@ class ProfileController extends Controller
         return view('admin.profile.edit');
     }
 
+    public function update(Request $request)
+    {
+      //admin/news/createにリダイレクトする
+      return redirect('admin/profile/edit');
+    }
 }
